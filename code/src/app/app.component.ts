@@ -2,15 +2,15 @@ import { Component } from 'angular2/core';
 
 @Component({
   selector: 'my-app',
-  templateUrl: 'app/app.html'
+  templateUrl: 'app/app.component.html'
 })
 
 export class AppComponent {
   //Object varaible
-  target: string;
+  name: string;
 
   constructor() {
-   this.target = 'world';
+   this.name = 'world';
   }
 
 }

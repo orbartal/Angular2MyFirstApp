@@ -1,4 +1,5 @@
 /code/src/**/*.js
+!/code/src/systemjs.config.js
 /code/*.js.map
 /code/typings
 /code/node_modules
